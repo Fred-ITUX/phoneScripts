@@ -3,8 +3,8 @@
 #### Phone scripts for iSH
 #### git clone https://github.com/Fred-ITUX/phoneScripts.git
 
-#scriptsPath="~/phoneScripts/Scripts"
-utilitiesPath="~/phoneScripts/Utilities"
+#scriptsPath="~/phoneScripts/Scripts/"
+utilitiesPath="~/phoneScripts/Utilities/"
 
 cd "$utilitiesPath"
 
