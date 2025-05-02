@@ -20,7 +20,7 @@ alias py='python3'
 
 
 #### Github repo update
-alias phoneUPD="$utilitiesPath/repo_update.sh"
+alias repoUPD="$utilitiesPath/repo_update.sh"
 alias setup="$utilitiesPath/setup.sh"
 
 
