@@ -21,7 +21,7 @@ alias py='python3'
 
 
 #### Github repo update
-alias repoUPD="$utilitiesPath/repo_update.sh"
+alias repoUPD="cd $utilitiesPath/ && $utilitiesPath/repo_update.sh"
 alias setup="$utilitiesPath/setup.sh"
 
 
