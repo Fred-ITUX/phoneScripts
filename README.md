@@ -1,2 +1,1 @@
-# phoneScripts
-scripts for iSH
+Scripts for iSH
