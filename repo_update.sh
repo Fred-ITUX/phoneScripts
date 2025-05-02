@@ -13,5 +13,6 @@ cd "$scriptsPath"
 # git pull origin master
 git pull origin
 
-echo -e "\n"
-cd
+echo -e "\n Updating profile"
+
+cp profile.sh ~/.profile.sh

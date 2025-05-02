@@ -1,4 +1,6 @@
 
+HOME="~/"
+
 #### Path
 scriptsPath="$HOME/phoneScripts"
 
@@ -7,6 +9,7 @@ scriptsPath="$HOME/phoneScripts"
 alias addx='chmod +x'
 alias c='clear'
 alias e='exit'
+alias py='python3'
 
 
 
