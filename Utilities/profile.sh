@@ -10,7 +10,8 @@ utilitiesPath="~/phoneScripts/Utilities"
 
 #### Quality of life
 alias addx='chmod +x'
-alias addexec='find ~/phoneScripts -type f -name "*.sh" -exec chmod +x {} +'
+
+addexec(){'find ~/phoneScripts -type f -name "*.sh" -exec chmod +x {} +'}
 
 alias c='clear'
 alias e='exit'
