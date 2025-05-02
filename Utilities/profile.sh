@@ -2,7 +2,7 @@
 
 
 #### Path
-HOME="~/"
+# HOME="~"
 scriptsPath="$HOME/phoneScripts/Scripts"
 utilitiesPath="$HOME/phoneScripts/Utilities"
 
@@ -10,6 +10,7 @@ utilitiesPath="$HOME/phoneScripts/Utilities"
 
 #### Quality of life
 alias addx='chmod +x'
+alias cd="cd $HOME"
 alias c='clear'
 alias e='exit'
 alias py='python3'
