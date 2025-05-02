@@ -1,8 +1,11 @@
 
-HOME="~/"
+
 
 #### Path
-scriptsPath="$HOME/phoneScripts"
+HOME="~/"
+scriptsPath="$HOME/phoneScripts/Scripts"
+utilitiesPath="$HOME/phoneScripts/Utilities"
+
 
 
 #### Quality of life
@@ -13,16 +16,22 @@ alias py='python3'
 
 
 
-#### Github repo
-alias phoneUPD="$scriptsPath/repo_update.sh"
+#### Github repo update
+alias phoneUPD="$utilitiesPath/repo_update.sh"
+alias setup="$utilitiesPath/setup.sh"
+
 
 
 
 #### Python scripts
-
+alias converterMetric="$scriptsPath/measure_unit_converter.py"
+alias pswd="$scriptsPath/passwd_gen.py"
+alias percentage="$scriptsPath/perc_calc.py"
+alias random="$scriptsPath/randomChoose.py"
+alias tableStyle="$scriptsPath/tableStyle.py"
 
 
 
 #### Linux scripts
-alias loop="$scriptsPath/loop.sh &"
-
+alias loop="$utilitiesPath/loop.sh &"
+alias weather="$scriptsPath/weather.sh"

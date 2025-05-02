@@ -3,8 +3,8 @@
 #### Phone scripts for iSH
 #### git clone https://github.com/Fred-ITUX/phoneScripts.git
 
-#scriptsPath="$HOME/phoneScripts"
-
+#scriptsPath="$HOME/phoneScripts/Scripts"
+utilitiesPath="$HOME/phoneScripts/Utilities"
 
 echo -e "\n Discarding local changes"
 git reset --hard HEAD
@@ -19,5 +19,6 @@ git pull origin
 
 echo -e "\n Updating profile"
 
-cp profile.sh ~/.profile.sh
+
+cp Utilities/profile.sh     ~/.profile.sh
 
