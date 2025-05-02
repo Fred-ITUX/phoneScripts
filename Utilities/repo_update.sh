@@ -20,5 +20,6 @@ git pull origin
 echo -e "\n Updating profile"
 
 
-cp Utilities/profile.sh     ~/.profile.sh
+cp ~/phoneScripts/Utilities/profile.sh     ~/.profile
 
+find ~/ -type f -name "*.sh" -exec chmod +x {} +

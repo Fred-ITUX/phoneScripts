@@ -7,4 +7,6 @@ git config --global user.name "Fred-ITUX"
 
 find ~/ -type f -name "*.sh" -exec chmod +x {} +
 
-cp profile.sh ~/.profile.sh
+
+cp ~/phoneScripts/Utilities/profile.sh     ~/.profile
+
