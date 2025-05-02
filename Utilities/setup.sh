@@ -9,4 +9,4 @@ find ~/phoneScripts -type f -name "*.sh" -exec chmod +x {} +
 
 
 cp ~/phoneScripts/Utilities/profile.sh     ~/.profile
-
+source ~/.profile

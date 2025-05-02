@@ -22,4 +22,6 @@ echo -e "\n Updating profile"
 
 cp ~/phoneScripts/Utilities/profile.sh     ~/.profile
 
+source ~/.profile
+
 find ~/ -type f -name "*.sh" -exec chmod +x {} +
