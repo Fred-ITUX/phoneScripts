@@ -1,8 +1,8 @@
 
 #### Path
 # HOME="~"
-scriptsPath="$HOME/phoneScripts/Scripts"
-utilitiesPath="$HOME/phoneScripts/Utilities"
+scriptsPath="~/phoneScripts/Scripts"
+utilitiesPath="~/phoneScripts/Utilities"
 
 
 
