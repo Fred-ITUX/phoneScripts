@@ -3,10 +3,10 @@
 #### Phone scripts for iSH
 #### git clone https://github.com/Fred-ITUX/phoneScripts.git
 
-#scriptsPath="$HOME/phoneScripts/Scripts"
-utilitiesPath="$HOME/phoneScripts/Utilities"
+#scriptsPath="~/phoneScripts/Scripts"
+utilitiesPath="~/phoneScripts/Utilities"
 
-cd "$scriptsPath"
+cd "$utilitiesPath"
 
 echo -e "\n Discarding local changes"
 git reset --hard HEAD
