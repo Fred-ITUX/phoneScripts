@@ -6,13 +6,13 @@
 #scriptsPath="$HOME/phoneScripts/Scripts"
 utilitiesPath="$HOME/phoneScripts/Utilities"
 
+cd "$scriptsPath"
+
 echo -e "\n Discarding local changes"
 git reset --hard HEAD
 
-
 echo -e "Pulling from origin\n"
 
-cd "$scriptsPath"
 
 # git pull origin master
 git pull origin
