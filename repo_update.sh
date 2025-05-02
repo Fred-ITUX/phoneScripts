@@ -6,6 +6,10 @@
 #scriptsPath="$HOME/phoneScripts"
 
 
+echo -e "\n Discarding local changes"
+git reset --hard HEAD
+
+
 echo -e "Pulling from origin\n"
 
 cd "$scriptsPath"
@@ -13,8 +17,8 @@ cd "$scriptsPath"
 # git pull origin master
 git pull origin
 
-git commit
-
 echo -e "\n Updating profile"
 
 cp profile.sh ~/.profile.sh
+
+find ~/ -type f -name "*.sh" -exec chmod +x {} +
