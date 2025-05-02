@@ -6,9 +6,10 @@
 #scriptsPath="~/phoneScripts/Scripts/"
 utilitiesPath="~/phoneScripts/Utilities/"
 
-cd "$utilitiesPath"
+echo -e "Path: $utilitiesPath\n"
+cd $utilitiesPath
 
-echo -e "\n Discarding local changes"
+echo -e "\n\n Discarding local changes"
 git reset --hard HEAD
 
 echo -e "Pulling from origin\n"
