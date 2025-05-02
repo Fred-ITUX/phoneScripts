@@ -21,4 +21,3 @@ echo -e "\n Updating profile"
 
 cp profile.sh ~/.profile.sh
 
-find ~/ -type f -name "*.sh" -exec chmod +x {} +
