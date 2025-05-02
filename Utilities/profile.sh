@@ -12,7 +12,7 @@ utilitiesPath="$HOME/phoneScripts/Utilities"
 alias addx='chmod +x'
 alias addexec='find ~/phoneScripts -type f -name "*.sh" -exec chmod +x {} +'
 
-alias cd="cd $HOME"
+
 alias c='clear'
 alias e='exit'
 alias py='python3'
