@@ -137,7 +137,7 @@ if converterType == "1":
 elif converterType == "2":
     for i in range(0, len(imperial)):
 
-        result = f'{inputNumber} {imperial[i]}\t to  {metric[i]}  =  {inputNumber * deltas[i]}'
+        result = f'{inputNumber} {metric[i]}\t to  {imperial[i]}  =  {inputNumber / deltas[i]}'
 
         if metric[i] in ("Centimeters","Meters","Meters","Kilometers"):
             length.append(result)
