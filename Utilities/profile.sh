@@ -1,6 +1,4 @@
 
-
-
 #### Path
 # HOME="~"
 scriptsPath="$HOME/phoneScripts/Scripts"
@@ -12,7 +10,6 @@ utilitiesPath="$HOME/phoneScripts/Utilities"
 alias addx='chmod +x'
 alias addexec='find ~/phoneScripts -type f -name "*.sh" -exec chmod +x {} +'
 
-
 alias c='clear'
 alias e='exit'
 alias py='python3'
@@ -22,8 +19,6 @@ alias py='python3'
 #### Github repo update
 alias repoUPD="$utilitiesPath/repo_update.sh"
 alias setup="$utilitiesPath/setup.sh"
-
-
 
 
 #### Python scripts
@@ -38,3 +33,4 @@ alias tableStyle="python3 $scriptsPath/tableStyle.py"
 #### Linux scripts
 alias loop="$utilitiesPath/loop.sh &"
 alias weather="$scriptsPath/weather.sh"
+
