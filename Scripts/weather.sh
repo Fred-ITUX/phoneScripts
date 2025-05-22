@@ -77,6 +77,8 @@ while true; do
   #### if the weather is not available, wait  
   else
     sleep 30s
+    data=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true")
+
   fi
 
 done
