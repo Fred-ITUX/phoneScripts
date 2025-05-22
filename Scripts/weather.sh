@@ -49,7 +49,18 @@ declare -A weather_descriptions=(
 
 while true; do
   data=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true")
-  
+
+
+  #### Check to avoid errors
+  dataCheck=$(echo -e "$data" | grep "{" )
+
+  if [ "$dataCheck" = "" ]; then
+    sleep 5s
+    exit 1
+  fi
+    
+
+
   #### Rounded to integer
   raw_temp=$(echo "$data" | jq -r '.current_weather.temperature')
   temp=$(LC_NUMERIC=C printf "%.0f" "$raw_temp")
