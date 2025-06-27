@@ -27,9 +27,9 @@ deltas = [
 0.453592,                   #### Pounds to Kilograms:      1 pound =            0.453592 kilograms
 0.0283495,                  #### Ounce to Kilograms:       1 ounce =            0.0283495 
 #### Volume                     
-3.78541,                     #### US Gallon to Liter:       1 US Gallon =        3.78541 Liter
+3.78541,                    #### US Gallon to Liter:       1 US Gallon =        3.78541 Liter
 #### Temperature        
--17.22                      #### Fahrenheit to Celsius:    1 Fahrenheit =       -17.22
+1                           #### Keep it 1, the forumla is too complicated
 ]
 
 
@@ -127,10 +127,17 @@ if converterType == "1":
             volume.append(result)
 
         elif imperial[i] in ("Fahrenheit"):
+            #### °F = °C * 1.8 + 32
+            formulaResult = f"{float( (inputNumber -32 ) / (9/5)):.2f}"
+            result = f'{inputNumber} {imperial[i]}\t to  {metric[i]}  =  {formulaResult}'
             temp.append(result)
+        
+
 
         else:
             print(f'Measure error')
+
+
 
 
 #### Metric to imperial divides
@@ -152,7 +159,12 @@ elif converterType == "2":
 
 
         elif metric[i] in ("Celsius"):
+
+        #### °C = (°F - 32) ÷ (9/5)    
+            formulaResult = f" {float(  (inputNumber * (9/5) +32 ) ):.2f}"
+            result = f'{inputNumber} {metric[i]}\t to  {imperial[i]}  =  {formulaResult}'
             temp.append(result)
+        
 
         else:
             print(f'Measure error')

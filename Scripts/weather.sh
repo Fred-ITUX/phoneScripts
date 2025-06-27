@@ -50,7 +50,6 @@ declare -A weather_descriptions=(
 while true; do
   data=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true")
 
-
   #### Check to avoid errors
   dataCheck=$(echo -e "$data" | grep "{" )
 
@@ -76,7 +75,7 @@ while true; do
 
   #### if the weather is not available, wait  
   else
-    sleep 30s
+    sleep 5s
     data=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true")
 
   fi
