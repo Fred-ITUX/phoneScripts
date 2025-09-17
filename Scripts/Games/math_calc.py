@@ -1,28 +1,33 @@
 import random
 
-def operatorChoice(lvl):
+def advance(lvl):
 
-    if lvl > 0 and lvl < 5:
+    if lvl > 0 and lvl < 10:
         operators = [ '+', '-' ] 
-    elif lvl >= 5 and lvl < 10:
-        operators = [ '+', '-', '*' ] 
+        n1 = random.randint(10, 50)
+        n2 = random.randint(0, 80)
+
+    elif lvl >= 10 and lvl < 15:
+        operators = [ '*' ] 
+        n1 = random.randint(0, 50)
+        n2 = random.randint(0, 25)
+
+    elif lvl >= 15 and lvl < 20:
+        operators = [ '/' ] 
+        n1 = random.randint(0, 50)
+        n2 = random.randint(5, 25)
+
     else:
         operators = [ '+', '-', '*', '/' ] 
+        n1 = random.randint(0, 100)
+        n2 = random.randint(0, 100)
     
     
     #### operators = [ '+', '-', '/', '*' ] 
     op = random.choice(operators)
 
-    return op
+    return op, n1 ,n2
 
-
-
-def advLvl():
-
-    n1 = random.randint(10, 200)
-    n2 = random.randint(0, 50)
-
-    return n1, n2
 
 
 def calc(op):
@@ -52,8 +57,7 @@ while True:
     while True:        
         
         lvl += 1
-        op = operatorChoice(lvl)
-        n1, n2 = advLvl()
+        op, n1, n2 = advance(lvl)
         result = calc(op)
         
         try:
