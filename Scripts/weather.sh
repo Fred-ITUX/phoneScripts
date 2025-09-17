@@ -104,8 +104,6 @@ done
 #### If the host is down it prints an error
 #### Executor does NOT output anything until the code stopped running
 
-#### executor --- timer 300s
-
 
 # #### Weather from wttr.in --- already with the emojii
 # city="Latina"
