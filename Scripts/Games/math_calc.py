@@ -4,8 +4,8 @@ def advance(lvl):
 
     if lvl > 0 and lvl < 10:
         operators = [ '+', '-' ] 
-        n1 = random.randint(10, 50)
-        n2 = random.randint(0, 80)
+        n1 = random.randint(0, 150)
+        n2 = random.randint(0, 100)
 
     elif lvl >= 10 and lvl < 15:
         operators = [ '*' ] 
