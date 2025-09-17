@@ -25,12 +25,14 @@ alias repoUPD="cd $utilitiesPath/ && $utilitiesPath/repo_update.sh"
 alias setup="$utilitiesPath/setup.sh"
 
 
+
 #### Python scripts
 alias converterMetric="python3 $scriptsPath/measure_unit_converter.py"
 alias pswd="python3 $scriptsPath/passwd_gen.py"
 alias percentage="python3 $scriptsPath/perc_calc.py"
 alias random="python3 $scriptsPath/randomChoose.py"
 alias tableStyle="python3 $scriptsPath/tableStyle.py"
+alias math="python3 $scriptsPath/Games/math_calc.py"
 
 
 
