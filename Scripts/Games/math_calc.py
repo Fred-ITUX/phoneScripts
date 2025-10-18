@@ -21,9 +21,7 @@ def advance(lvl):
         operators = [ '+', '-', '*', '/' ] 
         n1 = random.randint(0, 100)
         n2 = random.randint(0, 100)
-    
-    
-    #### operators = [ '+', '-', '/', '*' ] 
+        
     op = random.choice(operators)
 
     return op, n1 ,n2
@@ -31,20 +29,23 @@ def advance(lvl):
 
 
 def calc(op):
-    
-    if op == "+":
-        result = n1+n2
-    elif op == "-":
-        result = n1-n2
-    elif op == "/":
-        result = n1/n2
-        result = float(f'{result:.1f}')
-    elif op == "*":
-        result = n1*n2
-    else:
-        print(f'Operation error, exiting...')
-        exit()
-    
+
+    try:
+        if op == "+":
+            result = n1+n2
+        elif op == "-":
+            result = n1-n2
+        elif op == "/":
+            result = n1/n2
+            result = float(f'{result:.1f}')
+        elif op == "*":
+            result = n1*n2
+        else:
+            print(f'Operation error, exiting...')
+            exit()
+    except ZeroDivisionError:
+            result = 0
+
     # print(f'result: {n1} {op} {n2} = {result}')
     return result
 
@@ -59,6 +60,8 @@ while True:
         lvl += 1
         op, n1, n2 = advance(lvl)
         result = calc(op)
+
+        
         
         try:
             userInput = float(input(f'\nLevel: {lvl}\t {n1} {op} {n2} = '))
