@@ -1,0 +1,24 @@
+Fast Roll
+Mid Roll
+Fat Roll
+Ninja Roll
+No Hit
+No Heal
+One-Hand only
+No Status
+No Spells (all)
+Spell Only (all)
+Cast atleast 5 spells
+Cast atleast 10 spells
+No Blocking
+No Consumables
+Consumables only
+No Buffs
+No Rolling
+Cursed
++0 Weapon
++5 Weapon
+No HUD
+Half HP (dusk crown or curse)
+Power within
+Hyper Mode

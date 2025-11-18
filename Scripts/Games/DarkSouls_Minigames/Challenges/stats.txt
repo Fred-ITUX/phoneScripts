@@ -1,0 +1,9 @@
+VIT 
+ATT 
+END 
+STR
+DEX
+RES
+INT 
+FTH 
+HUM
