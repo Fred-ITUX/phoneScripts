@@ -15,6 +15,7 @@ Sunlight Maggot
 1 Pinwheel Mask 
 Elite Knight Set
 Knight Set
+Eastern Set
 Tiny Being's Ring
 Cloranthy Ring
 Ring of Steel Protection
@@ -201,26 +202,33 @@ Shield to +10
 Weapon to +10
 Weapon to +15
 Armor piece to +5
-2 Boss weapons (forge or cut)
 3 Boss weapons (forge or cut)
 4 Boss weapons (forge or cut)
+5 Boss weapons (forge or cut)
 Get cursed
 Break curse
 Have 5 twinkling titanite
 Have 5 demon titanite
 Get a titanite slab
 Get a colored titanite slab
+Get a blue titanite slab
+Get a white titanite slab
+Get a red titanite slab
 Trade with Snuggly
 Find a Soul of a Hero
 Find a Soul of a Great Hero
 Get Egg Infection
+Kill 2 bosses with egg infection
+Kill 3 bosses with egg infection
+Kill 2 bosses while cursed
+Kill 3 bosses while cursed
 Evolve Egg Infection
 Get intoxicated
 Rubbish
 Cast a Spell
 Cast a Miracle
 Cast a Pyromancy
-Cast a Dark Spell
+Cast a Dark Spell (hex)
 Attune 2 spells
 Attune 3 spells
 Have 3 boss souls
@@ -235,5 +243,33 @@ Kill 3 NPC
 Kill 5 NPC
 Discard a total of 10 humanity
 Discard a total of 20 humanities
+Discard a Firekeeper soul
+Discard 2 Firekeepers souls
 Give an ember to a blacksmith
 Give 3 embers to a blacksmith
+Estus +3
+Estus +4
+Dark sign with 10k+ souls
+Dark sign with 20k+ souls
+Kill Gwyndolin whithout killing Gwynevere
+Kill a black knight (Catacombs)
+Kill a black knight (Tomb of Giants)
+Kill a black knight (Undead Parish)
+Kill a black knight (Undead Asylum) 
+Kill 3 black knights
+Kill 5 black knights
+Kill Havel
+Kill Oscar (Hollow)
+No Gimmick Ceaseless Discharge
+Make the Iron Golem fall to his death
+Rest at the Tomb of Giants bonfire without Lord Vessel
+Kill 2 giant cats
+Kill 3 giant cats
+Kill all the phantoms in Darkroot Garden at once
+Kill the Hydra (Darkroot Garden)
+Kill the Hydra (Ash Lake)
+Kill both Hydras
+Kill 1 enemy with dragon breath
+Last hit 1 boss with dragon breath
+Last hit 1 boss with a weapon art
+Last hit 2 bosses with a weapon art

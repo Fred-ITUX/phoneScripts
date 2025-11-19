@@ -5,7 +5,6 @@ Blacksmith Andre
 Blacksmith Rickert 
 Blacksmith Vamos
 All blacksmiths
-All merchants
 Crestfallen Merchant     
 Crestfallen Warrior          
 Darkmoon Knightess (Anor Londo Firekeeper)     

@@ -6,19 +6,20 @@ No Hit
 No Heal
 One-Hand only
 No Status
-No Spells (all)
-Spell Only (all)
+No Spells (any)
+Spell Only (any)
 Cast atleast 5 spells
 Cast atleast 10 spells
 No Blocking
 No Consumables
-Consumables only
+Consumables and spells (any) only
 No Buffs
 No Rolling
 Cursed
 +0 Weapon
 +5 Weapon
 No HUD
-Half HP (dusk crown or curse)
-Power within
-Hyper Mode
+Half HP (Dusk crown or curse)
+Power Within
+Red Tearstone Ring Active
+Blue Tearstone Ring Active
