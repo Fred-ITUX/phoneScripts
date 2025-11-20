@@ -1,38 +1,37 @@
 Alvina
 Anastacia    
-Logan     
-Blacksmith Andre     
-Blacksmith Rickert 
+Logan
+Blacksmith Andre
+Blacksmith Rickert
 Blacksmith Vamos
+Giant Blacksmith
 All blacksmiths
-Crestfallen Merchant     
-Crestfallen Warrior          
-Darkmoon Knightess (Anor Londo Firekeeper)     
-Kaathe     
-Fair Lady     
-Domhnall of Zena     
-Dusk of Oolacile     
-Eingyi     
-Elizabeth     
-Giant Blacksmith     
-Griggs of Vinheim     
-Hawkeye Gough     
-Ingward     
-Kingseeker Frampt     
-Knight Lautrec     
-Laurentius     
-Ciaran     
-Chester     
+Crestfallen Merchant
+Crestfallen Warrior
+Darkmoon Knightess (AL Firekeeper)
+Kaathe
+Fair Lady
+Domhnall of Zena
+Dusk of Oolacile
+Eingyi
+Elizabeth
+Griggs of Vinheim
+Hawkeye Gough
+Ingward
+Kingseeker Frampt
+Knight Lautrec
+Laurentius
+Ciaran
+Chester
 Nico
 Vince
 Oswald
 Patches
-Petrus     
-Quelana     
-Reah     
-Shiva     
-Sieglinde     
-Siegmeyer          
+Petrus
+Quelana
+Reah
+Shiva
+Sieglinde
+Siegmeyer
 Solaire
-Undead Merchant     
-Beatrice
+Undead Merchant

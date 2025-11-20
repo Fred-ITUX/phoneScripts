@@ -19,7 +19,7 @@ Cursed
 +0 Weapon
 +5 Weapon
 No HUD
-Half HP (Dusk crown or curse)
+Half HP (Dusk crown ring or curse)
 Power Within
 Red Tearstone Ring Active
 Blue Tearstone Ring Active

@@ -1,9 +1,8 @@
-VIT 
-ATT 
-END 
-STR
-DEX
-RES
-INT 
-FTH 
-HUM
+Vitality 
+Attunement
+Endurance
+Strength
+Dexerity
+Resistance
+Intelligence
+Faith
