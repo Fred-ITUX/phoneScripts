@@ -163,6 +163,7 @@ Obtain 2 Divine Blessing
 Obtain 3 Coins (Copper, Silver or Gold)
 Obtain Uchigatana
 Obtain Iaito
+Obtain Eagle Shield
 Obtain Washing Pole
 Obtain Great Scythe
 Obtain Great Club

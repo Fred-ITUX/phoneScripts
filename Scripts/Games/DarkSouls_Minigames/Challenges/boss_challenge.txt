@@ -16,8 +16,10 @@ Consumables and spells (any) only
 No Buffs
 No Rolling
 Cursed
-+0 Weapon
-+5 Weapon
+With a non-special +0 Weapon
+With a non-special +5 Weapon
+With a special +0 Weapon
+With a special +5 Weapon
 No HUD
 Half HP (Dusk crown ring or curse)
 Power Within
