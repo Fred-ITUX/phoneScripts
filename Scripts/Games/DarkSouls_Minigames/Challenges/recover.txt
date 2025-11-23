@@ -36,7 +36,6 @@ Obtain Dusk Crown Ring
 Obtain White Seance Ring
 Obtain Darkmoon Seance Ring
 Obtain Ring of the Sun's Firstborn
-Obtain Darkmoon Blade Covenant Ring
 Obtain Ring of the Sun Princess
 Obtain Leo Ring
 Obtain Wolf Ring
@@ -50,14 +49,12 @@ Obtain Covetous Silver Serpent Ring
 Obtain Covenant of Artorias
 Obtain Orange Charred Ring
 Obtain Old Witch's Ring
-Obtain Cat Covenant Ring
 Obtain Ring of Fog
 Obtain Ring of Favor and Protection
 Obtain Ring of the Evil Eye
 Obtain Calamity Ring
 Obtain Red Tearstone Ring
 Obtain Blue Tearstone Ring
-Obtain Soul Arrow
 Obtain Great Soul Arrow
 Obtain Heavy Soul Arrow
 Obtain Great Heavy Soul Arrow
@@ -84,7 +81,6 @@ Obtain Dark Orb
 Obtain Dark Bead
 Obtain Dark Fog
 Obtain Pursuers
-Obtain Heal
 Obtain Great Heal Excerpt
 Obtain Great Heal
 Obtain Soothing Sunlight
@@ -103,7 +99,6 @@ Obtain Tranquil Walk of Peace
 Obtain Lightning Spear
 Obtain Sunlight Blade
 Obtain Gravelord Sword Dance
-Obtain Fireball
 Obtain Fire Orb
 Obtain Great Fireball
 Obtain Great Chaos Fireball
