@@ -1,5 +1,5 @@
-INT → 27	Kill Blacksmith Vamos	Pinwheel Cursed	Gwyn	Join Path of the Dragon
-Ring of Steel Protection	Moonlight Butterfly Cast atleast 5 spells	Forge Quelaag's Furysword	Key to New Londo Ruins	Kill 1 enemy with dragon breath
-Pyromancy Flame to +10	Discard 2 Firekeepers souls	Taurus Demon	Shield to +5	Eastern Set
-Soothing Sunlight	Betray Gravelord Servant	Cloranthy Ring	New Londo cursed	Velka's Rapier
-Magic Weapon	Talk to Crestfallen Merchant	Level Cap → 58	Four Kings No Hit	Knight Set
+Gwyn	Talk to Kaathe	Have 5 twinkling titanite	Find a Soul of a Hero	Have 5 demon titanite
+Obtain Drake Sword	Taurus Demon → Cursed	Forge Smough's Hammer	Get a white titanite slab	Betray 3 Covenants
+Kill a black knight (Undead Parish)	Obtain Flame Stoneplate Ring	Obtain Sanctum	Obtain Ring of Steel Protection	Four Kings → No Heal
+Discard 2 Firekeepers souls	Quelaag	Obtain Stone Armor Set	Kill 2 different bosses with no rings	Obtain Sunlight Talisman
+Obtain Old Witch's Ring	Moonlight Butterfly	Get intoxicated	Obtain Great Club	Dark sign with 30k+ souls
