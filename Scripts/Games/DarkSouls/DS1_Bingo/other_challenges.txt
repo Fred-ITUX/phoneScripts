@@ -1,0 +1,339 @@
+Obtain Moonlight Greatsword
+Obtain Drake Sword
+Obtain Obsidian Greatsword
+Obtain Priscilla's Dagger
+Obtain Dragon Greatsword
+Obtain Dragon King Greataxe
+Obtain Gargoyle Tail Axe
+Obtain Guardian Tail
+Obtain Sunlight Maggot
+Obtain 1 Pinwheel Mask 
+Obtain 2 Pinwheel Masks 
+Obtain Elite Knight Set
+Obtain Knight Set
+Obtain Eastern Set
+Obtain Havel Set
+Obtain Stone Armor Set
+Obtain Kirk Set
+Obtain Gold-Hemmed Black Set
+Obtain Tiny Being's Ring
+Obtain Cloranthy Ring
+Obtain Ring of Steel Protection
+Obtain Spell Stoneplate Ring
+Obtain Flame Stoneplate Ring
+Obtain Thunder Stoneplate Ring
+Obtain Speckled Stoneplate Ring
+Obtain 2 Stoneplate Rings
+Obtain 3 Stoneplate Rings
+Obtain Bloodbite Ring
+Obtain Poisonbite Ring
+Obtain Cursebite Ring
+Obtain Rare Ring of Sacrifice
+Obtain Bellowing Dragoncrest Ring
+Obtain Lingering Dragoncrest Ring
+Obtain Slumbering Dragoncrest Ring
+Obtain Dusk Crown Ring
+Obtain White Seance Ring
+Obtain Darkmoon Seance Ring
+Obtain Ring of the Sun's Firstborn
+Obtain Ring of the Sun Princess
+Obtain Leo Ring
+Obtain Wolf Ring
+Obtain Hawk Ring
+Obtain Hornet Ring
+Obtain East Wood Grain Ring
+Obtain Dark Wood Grain Ring
+Obtain Rusted Iron Ring
+Obtain Covetous Gold Serpent Ring
+Obtain Covetous Silver Serpent Ring
+Obtain Covenant of Artorias
+Obtain Orange Charred Ring
+Obtain Old Witch's Ring
+Obtain Ring of Fog
+Obtain Ring of Favor and Protection
+Obtain Ring of the Evil Eye
+Obtain Calamity Ring
+Obtain Red Tearstone Ring
+Obtain Blue Tearstone Ring
+Obtain Great Soul Arrow
+Obtain Heavy Soul Arrow
+Obtain Great Heavy Soul Arrow
+Obtain Homing Soulmass
+Obtain Homing Crystal Soulmass
+Obtain Soul Spear
+Obtain Crystal Soul Spear
+Obtain White Dragon Breath
+Obtain Magic Weapon
+Obtain Great Magic Weapon
+Obtain Crystal Magic Weapon
+Obtain Magic Shield
+Obtain Strong Magic Shield
+Obtain Aural Decoy
+Obtain Hush
+Obtain Fall Control
+Obtain Hidden Weapon
+Obtain Hidden Body
+Obtain Repair
+Obtain Chameleon
+Obtain Remedy
+Obtain Resist Curse
+Obtain Dark Orb
+Obtain Dark Bead
+Obtain Dark Fog
+Obtain Pursuers
+Obtain Great Heal Excerpt
+Obtain Great Heal
+Obtain Soothing Sunlight
+Obtain Replenishment
+Obtain Bountiful Sunlight
+Obtain Force
+Obtain Wrath of the Gods
+Obtain Emit Force
+Obtain Magic Barrier
+Obtain Great Magic Barrier
+Obtain Homeward
+Obtain Seek Guidance
+Obtain Karmic Justice
+Obtain Vow of Silence
+Obtain Tranquil Walk of Peace
+Obtain Lightning Spear
+Obtain Sunlight Blade
+Obtain Gravelord Sword Dance
+Obtain Fire Orb
+Obtain Great Fireball
+Obtain Great Chaos Fireball
+Obtain Firestorm
+Obtain Fire Tempest
+Obtain Chaos Storm
+Obtain Combustion
+Obtain Great Combustion
+Obtain Fire Surge
+Obtain Fire Whip
+Obtain Chaos Fire Whip
+Obtain Poison Mist
+Obtain Toxic Mist
+Obtain Acid Surge
+Obtain Flash Sweat
+Obtain Iron Flesh
+Obtain Power Within
+Obtain Undead Rapport
+Obtain Black Flame
+Obtain Residence Key
+Obtain Mystery Key
+Obtain Basement Key
+Obtain Key to Depths
+Obtain Sewer Chamber Key
+Obtain Blighttown Key
+Obtain Watchtower Basement Key
+Obtain Key to New Londo Ruins
+Obtain Key to the Seal
+Obtain Cage Key
+Obtain Archive Tower Giant Cell Key
+Obtain Annex Key
+Obtain Crest of Artorias
+Obtain Peculiar Doll
+Obtain Broken Pendant
+Obtain Crest Key
+Obtain Lord Vessel
+Obtain Large Ember
+Obtain Very Large Ember
+Obtain Divine Ember
+Obtain Large Divine Ember
+Obtain Dark Ember
+Obtain Large Magic Ember
+Obtain Enchanted Ember
+Obtain Crystal Ember
+Obtain Large Flame Ember
+Obtain Chaos Flame Ember
+Obtain Crest Shield
+Obtain Blacksmith Hammer
+Obtain Blacksmith Giant Hammer
+Obtain Hammer of Vamos
+Obtain Royal helm
+Obtain Tin crystallization catalyst
+Obtain Iron round shield
+Obtain Ivory talisman
+Obtain Pendant
+Obtain 2 Divine Blessing
+Obtain 3 Coins (Copper, Silver or Gold)
+Obtain Uchigatana
+Obtain Iaito
+Obtain Eagle Shield
+Obtain Washing Pole
+Obtain Great Scythe
+Obtain Great Club
+Obtain Whip
+Obtain Notched Whip
+Obtain Claymore
+Obtain Zweihander
+Obtain Greatsword
+Obtain Ricard's Rapier
+Obtain Velka's Rapier
+Obtain Butcher Knife
+Obtain Demon's Great Hammer
+Obtain Dragon Tooth
+Obtain Grant
+Obtain Sanctum
+Obtain Dark Hand
+Obtain Scythe
+Obtain Lucerne
+Obtain Composite Bow
+Obtain Dragonslayer Greatbow
+Obtain Gough's Greatbow
+Obtain Sniper Crossbow
+Obtain Avelyn
+Obtain Sunlight Talisman
+Obtain Velka's Talisman
+Obtain Thorolund Talisman
+Obtain Canvas Talisman
+Obtain Rubbish
+Obtain 3 Boss weapons (forge or cut)
+Obtain 4 Boss weapons (forge or cut)
+Obtain 5 Boss weapons (forge or cut)
+Obtain 5 Cracked Red Eye Orbs
+Obtain 10 Cracked Red Eye Orbs
+Obtain Pyromancy Flame 
+Upgrade the Pyromancy Flame to +5
+Upgrade the Pyromancy Flame to +10
+Upgrade a Special weapon to +3
+Upgrade a Special weapon to +5
+Upgrade a Shield to +5
+Upgrade a Shield to +10
+Upgrade a Weapon to +10
+Upgrade a Weapon to +15
+Upgrade an Armor piece to +5
+Upgrade a special Armor piece to +5 (twinkling)
+Get a titanite slab
+Get a colored titanite slab
+Get a blue titanite slab
+Get a white titanite slab
+Get a red titanite slab
+Get cursed
+Get Egg Infection
+Evolve Egg Infection
+Get intoxicated
+Get grabbed by an enemy
+Get hugged by a mimic twice without dying
+Trade with Snuggly
+Trade with Snuggly 2 times
+Trade with Snuggly 3 times
+Buy something from the undead merchant
+Buy something from the Crestfallen Merchant 
+Buy a pyromancy from Eingyi
+Buy something from Chester
+Spend atleast 10k souls at a merchant
+Spend atleast 20k souls at a merchant
+Spend atleast 30k souls at a merchant
+Find a Soul of a Hero
+Find a Soul of a Great Hero
+Cast a Spell
+Cast a Miracle
+Cast a Pyromancy
+Cast a Dark Spell (hex)
+Cast Light
+Attune 2 spells
+Attune 3 spells
+Unflood New Londo while cursed
+Unflood New Londo whithout Transient curse active
+Break curse
+Evolve a weapon
+Evolve a shield
+Give an ember to a blacksmith
+Give 3 embers to a blacksmith
+Upgrade Estus to +3
+Upgrade Estus to +4
+Dark sign with 10k+ souls
+Dark sign with 20k+ souls
+Dark sign with 30k+ souls
+Make the Iron Golem fall to his death
+Rest at the Tomb of Giants bonfire without Lord Vessel
+Break an illusory wall
+Kindle the same bonfire 3 times
+Save Solaire
+Pay Lautrec for information
+Pay Petrus for information
+Use a Firekeeper Soul
+Use 2 Firekeeper Souls
+Use 3 boss souls
+Use 5 boss souls
+Use the binoculars as Miyazaki intended (IFYKYK)
+Let an enemy suck 2 humanities
+Watch 2 cutscenes
+Discard a total of 10 humanity
+Discard a total of 20 humanities
+Discard a Firekeeper soul
+Discard 2 Firekeepers souls
+Discard all starting gear
+Have 3 Fire keeper souls
+Have 3 boss souls
+Have 5 boss souls
+Have 5 twinkling titanite
+Have 5 demon titanite
+Have 20 soft humanities
+Have 30 soft humanities
+Have exactly 1 soul
+Die in 4 different ways
+Shoot and kill 3 eniemes
+Shoot a great arrow
+Kill super O/S with a different weapon from the 1st phase
+Kill Gwyndolin whithout killing Gwynevere
+Kill an enemy with a throwing knife
+Kill an enemy with a bomb 
+Kill 3 invaders
+Kill a black knight (Catacombs)
+Kill a black knight (Tomb of Giants)
+Kill a black knight (Undead Parish)
+Kill a black knight (Undead Asylum) 
+Kill 3 black knights
+Kill 5 black knights
+Kill Kirk (Depths)
+Kill Kirk (Demon Ruins)
+Kill Kirk (Lost Izalith)
+Kill Havel
+Kill Oscar (Hollow)
+Kill 3 NPC
+Kill 5 NPC
+Kill 2 bosses while infected (egg)
+Kill 3 bosses while infected (egg)
+Kill 2 bosses while cursed
+Kill 3 bosses while cursed
+Kill the Capra Demon boss with 0 poise
+Kill 2 Capra Demons
+Kill the Taurus Demon withouth plunging attack
+Kill 2 Taurus Demons
+Kill 2 Giant Cats
+Kill 3 Giant Cats
+Kill 3 Necromancers
+Kill 3 Pinwheels
+Kill 3 Titanite Lyzards
+Kill 5 Titanite Lyzards
+Kill all the phantoms in Darkroot Garden at once
+Kill the Hydra in Darkroot Garden
+Kill the Hydra in Ash Lake
+Kill both Hydras
+Kill 2 bosses with no rings 
+Kill Solaire after the infection
+Kill 1 boss with only heavy attacks (R2) 
+Kill 2 boss with only heavy attacks (R2)
+Kill 3 boss with only heavy attacks (R2)
+Kill Ceaseless Discharge without Gimmick 
+Kill 1 enemy with dragon breath
+Kill 1 boss using only 1 hand on the controller
+Throw shit to 2 bosses
+Last hit 1 boss with dragon breath
+Last hit 1 boss with a weapon art
+Last hit 2 bosses with a weapon art
+Last hit 1 boss with a throwing knife
+Last hit 1 boss with a bomb
+Hit a boss 3 times with an unwieldable weapon
+Hit a boss 5 times with an unwieldable weapon
+Hit a boss 7 times with an unwieldable weapon
+Gesture 3 times during a bossfight
+Gesture 5 times during a bossfight
+Gesture 7 times during a bossfight
+Kick 1 summon 
+Summon Solaire for Gaping Dragon
+Summon both Solaire and Lautrec for Gargoyles
+Summon Lautrec for Gargoyles
+Summon Lautrec for Gaping Dragon
+Summon Beatrice for 4 kings
