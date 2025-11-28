@@ -307,6 +307,8 @@ Kill 3 Necromancers
 Kill 3 Pinwheels
 Kill 3 Titanite Lyzards
 Kill 5 Titanite Lyzards
+Kill 2 Titanite demons
+Kill 3 Titanite demons
 Kill all the phantoms in Darkroot Garden at once
 Kill the Hydra in Darkroot Garden
 Kill the Hydra in Ash Lake
@@ -319,7 +321,13 @@ Kill 3 boss with only heavy attacks (R2)
 Kill Ceaseless Discharge without Gimmick 
 Kill 1 enemy with dragon breath
 Kill 1 boss using only 1 hand on the controller
+Kill 1 Undead Dragon
+Kill both Undead Dragons
+Kill 1 boar
+Kill 2 boars
+Kill all boars
 Throw shit to 2 bosses
+Throw shit to 3 bosses
 Last hit 1 boss with dragon breath
 Last hit 1 boss with a weapon art
 Last hit 2 bosses with a weapon art
