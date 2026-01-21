@@ -60,9 +60,9 @@ arrayToPrint  = []
 
 
 #### Check to see if the measure arrays are the same length
-lentghCheck = len(imperial) + len(metric) + len(deltas)
+lengthCheck = len(imperial) + len(metric) + len(deltas)
 
-if lentghCheck / 3 != len(deltas):
+if lengthCheck / 3 != len(deltas):
     print(f'Arrays needs to be equally filled (same length)')
     exit()
 
