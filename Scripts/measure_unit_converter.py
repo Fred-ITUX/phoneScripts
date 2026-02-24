@@ -85,10 +85,6 @@ while True:
         print(f'Error: {e}')
 
 
-
-
-
-
 while True:
     try:
 
@@ -176,12 +172,8 @@ else:
 
 ################################################################################################
 
-
 arrayToPrint = length + weight + volume + temp   
 
 for j in range(0, len(arrayToPrint)):
    
     print(f'{arrayToPrint[j]}')
-
-
-
