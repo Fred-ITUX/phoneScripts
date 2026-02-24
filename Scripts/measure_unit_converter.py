@@ -96,6 +96,14 @@ while True:
             print(f'{inputNumber} != {float(inputNumber)}')
 
         else:
+            #### Imperial to metric multiplies
+            if converterType == "1":
+                feetN           = int(inputNumber[ : inputNumber.find('.')])
+                meters_feet     = feetN  * 0.3048
+                inchesN         = int(inputNumber[ inputNumber.find('.')+1 :])
+                centim_inches   = ( inchesN / 2.54) / 10        
+                exConv          = f'{feetN}ft {inchesN}in  \t to  Mt-Cm   =\t{meters_feet + centim_inches:.2f}'
+
             inputNumber = float(inputNumber)
             break
 
@@ -111,7 +119,7 @@ while True:
 if converterType == "1":
     for i in range(0, len(metric)):
 
-        result = f'{inputNumber} {imperial[i]}\t to  {metric[i]}  =  {inputNumber * deltas[i]}'
+        result = f'{inputNumber} {imperial[i]}\t to  {metric[i]}  =  {inputNumber * deltas[i]:.2f}'
 
         if imperial[i] in ("Inches","Feet","Yards","Miles"):
             length.append(result)
@@ -133,6 +141,7 @@ if converterType == "1":
         else:
             print(f'Measure error')
 
+    length.insert(3 , exConv)
 
 
 
@@ -140,7 +149,7 @@ if converterType == "1":
 elif converterType == "2":
     for i in range(0, len(imperial)):
 
-        result = f'{inputNumber} {metric[i]}\t to  {imperial[i]}  =  {inputNumber / deltas[i]}'
+        result = f'{inputNumber} {metric[i]}\t to  {imperial[i]}  =  {inputNumber / deltas[i]:.2f}'
 
         if metric[i] in ("Centimeters","Meters","Meters","Kilometers"):
             length.append(result)
