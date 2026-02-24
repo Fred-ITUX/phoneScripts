@@ -10,20 +10,15 @@ utilitiesPath="~/phoneScripts/Utilities"
 
 #### Quality of life
 alias addx='chmod +x'
-
-
 alias profile='nano ~/.profile'
 alias welcome='nano /etc/motd'
 alias c='clear'
 alias e='exit'
-alias py='python3'
-
 
 
 #### Github repo update
 alias repoUPD="cd $utilitiesPath/ && $utilitiesPath/repo_update.sh"
 alias setup="$utilitiesPath/setup.sh"
-
 
 
 #### Python scripts
@@ -35,8 +30,6 @@ alias tableStyle="python3 $scriptsPath/tableStyle.py"
 alias math="python3 $scriptsPath/Games/math_calc.py"
 
 
-
 #### Linux scripts
 alias loop="$utilitiesPath/loop.sh &"
 alias weather="$scriptsPath/weather.sh"
-
