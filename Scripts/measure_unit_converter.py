@@ -1,7 +1,3 @@
-
-
-
-
 imperial = [
 #### Length
 "Inches",
@@ -49,14 +45,12 @@ metric = [
 ]
 
 
-
 length = ["\n📏  Length"]
 weight = ["\n⚖️  Weight"]
 volume = ["\n💧  Volume"]
 temp   = ["\n🌡️  Temperature"]
 
 arrayToPrint  = []
-
 
 
 #### Check to see if the measure arrays are the same length
@@ -74,10 +68,8 @@ converterType = str(input('1. Imperial to metric\t 2. Metric to imperial: ')).st
         
 while True:
     try:
-
         if converterType not in ("1" , "2"):
             converterType = str(input('Not valid choice\n1. Imperial to metric\t 2. Metric to imperial: ')).strip()
-        
         else:
             break
 
@@ -87,36 +79,32 @@ while True:
 
 while True:
     try:
+        inputNumber = str(input("Number to convert: ")).strip().replace(',','.')     
+    
+        #### Imperial to metric multiplies
+        if converterType == "1" and '.' in ( str(inputNumber) ):
+            feetN           = int(inputNumber[ : inputNumber.find('.')])
+            meters_feet     = feetN  * 0.3048
+            inchesN         = int(inputNumber[ inputNumber.find('.')+1 :])
+            centim_inches   = (inchesN / 2.54) / 10        
+            exConv          = f'{feetN}ft {inchesN}in  \t to  Mt-Cm   =\t{meters_feet + centim_inches:.2f}'
 
-        inputNumber   = str(input("Number to convert: ")).strip().replace(',','.')
-
-        valueCheck = float(inputNumber)
-
-        if float(inputNumber) != valueCheck  :
-            print(f'{inputNumber} != {float(inputNumber)}')
-
-        else:
-            #### Imperial to metric multiplies
-            if converterType == "1":
-                feetN           = int(inputNumber[ : inputNumber.find('.')])
-                meters_feet     = feetN  * 0.3048
-                inchesN         = int(inputNumber[ inputNumber.find('.')+1 :])
-                centim_inches   = ( inchesN / 2.54) / 10        
-                exConv          = f'{feetN}ft {inchesN}in  \t to  Mt-Cm   =\t{meters_feet + centim_inches:.2f}'
-
-            inputNumber = float(inputNumber)
+            addedExtraConversion = True
             break
+        else:
+            addedExtraConversion = False          
+            break    
 
     except Exception as e:
         print(f'Error: {e}')
 
-
+inputNumber = float(inputNumber)
 
 ################################################################################################
 
-
 #### Imperial to metric multiplies
 if converterType == "1":
+
     for i in range(0, len(metric)):
 
         result = f'{inputNumber} {imperial[i]}\t to  {metric[i]}  =  {inputNumber * deltas[i]:.2f}'
@@ -131,17 +119,13 @@ if converterType == "1":
             volume.append(result)
 
         elif imperial[i] in ("Fahrenheit"):
-            #### °F = °C * 1.8 + 32
-            formulaResult = f"{float( (inputNumber -32 ) / (9/5)):.2f}"
+            formulaResult = f"{float( (inputNumber -32 ) / (9/5)):.2f}"     #### °F = °C * 1.8 + 32
             result = f'{inputNumber} {imperial[i]}\t to  {metric[i]}  =  {formulaResult}'
             temp.append(result)
         
-
-
         else:
             print(f'Measure error')
 
-    length.insert(3 , exConv)
 
 
 
@@ -154,23 +138,17 @@ elif converterType == "2":
         if metric[i] in ("Centimeters","Meters","Meters","Kilometers"):
             length.append(result)
 
-
         elif metric[i] in ("Kilograms","Kilograms"):
             weight.append(result)
-
 
         elif metric[i] in ("Liter"):
             volume.append(result)
 
-
         elif metric[i] in ("Celsius"):
-
-        #### °C = (°F - 32) ÷ (9/5)    
-            formulaResult = f" {float(  (inputNumber * (9/5) +32 ) ):.2f}"
+            formulaResult = f" {float(  (inputNumber * (9/5) +32 ) ):.2f}"  #### °C = (°F - 32) ÷ (9/5)    
             result = f'{inputNumber} {metric[i]}\t to  {imperial[i]}  =  {formulaResult}'
             temp.append(result)
         
-
         else:
             print(f'Measure error')
 
@@ -179,7 +157,10 @@ else:
     exit() 
 
 
-################################################################################################
+
+
+if addedExtraConversion:
+    length.insert(3 , exConv)
 
 arrayToPrint = length + weight + volume + temp   
 
