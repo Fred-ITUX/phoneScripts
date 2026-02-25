@@ -1,8 +1,0 @@
-Vitality 
-Attunement
-Endurance
-Strength
-Dexerity
-Resistance
-Intelligence
-Faith

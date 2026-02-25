@@ -213,6 +213,7 @@ Get Egg Infection
 Evolve Egg Infection
 Get intoxicated
 Get grabbed by an enemy
+Get hugged by a mimic twice without dying
 Trade with Snuggly
 Trade with Snuggly 2 times
 Trade with Snuggly 3 times
@@ -255,6 +256,9 @@ Use a Firekeeper Soul
 Use 2 Firekeeper Souls
 Use 3 boss souls
 Use 5 boss souls
+Use the binoculars as Miyazaki intended (IFYKYK)
+Let an enemy suck 2 humanities
+Watch 2 cutscenes
 Discard a total of 10 humanity
 Discard a total of 20 humanities
 Discard a Firekeeper soul
@@ -267,7 +271,15 @@ Have 5 twinkling titanite
 Have 5 demon titanite
 Have 20 soft humanities
 Have 30 soft humanities
+Have exactly 1 soul
+Die in 4 different ways
+Shoot and kill 3 eniemes
+Shoot a great arrow
+Kill super O/S with a different weapon from the 1st phase
 Kill Gwyndolin whithout killing Gwynevere
+Kill an enemy with a throwing knife
+Kill an enemy with a bomb 
+Kill 3 invaders
 Kill a black knight (Catacombs)
 Kill a black knight (Tomb of Giants)
 Kill a black knight (Undead Parish)
@@ -285,26 +297,49 @@ Kill 2 bosses while infected (egg)
 Kill 3 bosses while infected (egg)
 Kill 2 bosses while cursed
 Kill 3 bosses while cursed
+Kill the Capra Demon boss with 0 poise
 Kill 2 Capra Demons
+Kill the Taurus Demon withouth plunging attack
 Kill 2 Taurus Demons
 Kill 2 Giant Cats
 Kill 3 Giant Cats
+Kill 3 Necromancers
+Kill 3 Pinwheels
+Kill 3 Titanite Lyzards
+Kill 5 Titanite Lyzards
+Kill 2 Titanite demons
+Kill 3 Titanite demons
 Kill all the phantoms in Darkroot Garden at once
 Kill the Hydra in Darkroot Garden
 Kill the Hydra in Ash Lake
 Kill both Hydras
-Kill 2 different bosses with no rings 
-Kill Solaire before the infection
+Kill 2 bosses with no rings 
 Kill Solaire after the infection
 Kill 1 boss with only heavy attacks (R2) 
 Kill 2 boss with only heavy attacks (R2)
 Kill 3 boss with only heavy attacks (R2)
 Kill Ceaseless Discharge without Gimmick 
 Kill 1 enemy with dragon breath
+Kill 1 boss using only 1 hand on the controller
+Kill 1 Undead Dragon
+Kill both Undead Dragons
+Kill 1 boar
+Kill 2 boars
+Kill all boars
+Throw shit to 2 bosses
+Throw shit to 3 bosses
 Last hit 1 boss with dragon breath
 Last hit 1 boss with a weapon art
 Last hit 2 bosses with a weapon art
-Summon Solaire for Gwyn 
+Last hit 1 boss with a throwing knife
+Last hit 1 boss with a bomb
+Hit a boss 3 times with an unwieldable weapon
+Hit a boss 5 times with an unwieldable weapon
+Hit a boss 7 times with an unwieldable weapon
+Gesture 3 times during a bossfight
+Gesture 5 times during a bossfight
+Gesture 7 times during a bossfight
+Kick 1 summon 
 Summon Solaire for Gaping Dragon
 Summon both Solaire and Lautrec for Gargoyles
 Summon Lautrec for Gargoyles
