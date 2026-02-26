@@ -23,7 +23,8 @@ alias setup="$utilitiesPath/setup.sh"
 
 #### Python scripts
 alias convMetric="python3 $scriptsPath/measure_unit_converter.py"
-alias pswd="python3 $scriptsPath/passwd_gen.py"
+# alias pswd="python3 $scriptsPath/passwd_gen.py"
+alias pswd="python3 ~/passwd_gen.py"
 alias percentage="python3 $scriptsPath/perc_calc.py"
 alias random="python3 $scriptsPath/randomChoose.py"
 alias tableStyle="python3 $scriptsPath/tableStyle.py"
