@@ -9,8 +9,8 @@ def checkValue(prompt):
         except ValueError:
             print("Not valid\n")
 
-value = checkValue("N: ")
-percentage = checkValue("%: ")
+value       = checkValue("N: ")
+percentage  = checkValue("%: ")
 
 perc = (percentage * value) / 100
 
