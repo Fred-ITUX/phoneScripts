@@ -31,6 +31,7 @@ alias tableStyle="python3 $scriptsPath/tableStyle.py"
 alias math="python3 $scriptsPath/Games/math_calc.py"
 alias poker-jack="python3 $scriptsPath/Games/poker-jack.py"
 
+
 #### Linux scripts
 alias loop="$utilitiesPath/loop.sh &"
 alias weather="$scriptsPath/weather.sh"
