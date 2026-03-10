@@ -133,7 +133,8 @@ while game != 'Over':
     
     round += 1
     turn = True
-    print(f'\n{'_'*25}\n  Round: {round}')
+    # print(f'\n{'_'*25}\n  Round: {round}')
+    print(f'\n_________________________ \n  Round: {round}')
     dealerTable = 0
     playerTable = 0
     bidTable = 0
