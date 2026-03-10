@@ -32,6 +32,7 @@ def hit():
 
     if wantToHit in ('y', 'yes', 'hit'):
         draw = checkAce(random.randint(1, 11), playerTable)
+        print(f'🐒 Drawing: {draw} + {playerTable} = {playerTable + draw}\n')
         playerTable += draw
         
         bidding(bid,"player")
