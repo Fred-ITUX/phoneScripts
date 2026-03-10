@@ -7,7 +7,6 @@ scriptsPath="~/phoneScripts/Scripts"
 utilitiesPath="~/phoneScripts/Utilities"
 
 
-
 #### Quality of life
 alias addx='chmod +x'
 alias profile='nano ~/.profile'
