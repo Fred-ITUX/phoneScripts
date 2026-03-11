@@ -54,7 +54,7 @@ def startingHand():
 
     if {card1, card2} == {1,10} or {card1, card2} == {11,10}:
         print(f'\n💰 Player natural Black Jack. GGs {card1} {card2}')
-        pBank += bidTable * 1.5
+        pBank += int(bidTable * 1.5)
         playerTable = 21
         bidTable = 0
         turn = False
@@ -83,7 +83,7 @@ def dealerStart():
 
     if {dealer_card1, dealer_card2} == {1,10} or {dealer_card1, dealer_card2} == {11,10}:
         print(f'💰 Dealer natural Black Jack. GGs {dealer_card1} {dealer_card2}')
-        dBank += bidTable  * 1.5
+        dBank += int(bidTable  * 1.5)
         bidTable = 0
         turn = False
     else:
@@ -111,7 +111,10 @@ def bidding(bid, bidder):
     if bidder == 'player':
         if pBank < bid:
             print(f"💸 Player's bankrupt!") ####  🏦 Dealer's remaining funds: {dBank}
-            game = 'Over'
+            
+            if playerTable <= dealerTable:
+                print(f'Player table: {playerTable} -- Dealer table {dealerTable}')
+                game = 'Over'
         else:
             print(f"🏦 Player remaining funds: {pBank}")
             pBank -= bid
@@ -119,7 +122,11 @@ def bidding(bid, bidder):
     elif bidder == 'dealer':
         if dBank < bid:
             print(f"💸 Dealer's bankrupt!") #### 🏦 Player's remaining funds: {pBank}
-            game = 'Over'
+            
+            if dealerTable < playerTable:
+                print(f'Dealer table {dealerTable} -- Player table: {playerTable}')
+                game = 'Over'
+            
         else:
             print(f"🏦 Dealer remaining funds: {dBank}")
             dBank -= bid
@@ -172,7 +179,7 @@ while game != 'Over':
                     break
 
 
-            elif playerTable < 21:
+            elif playerTable < 21: # and pBank > bid
                 print(f'🐒 Player table: {playerTable}\n')
                 hit()
 
@@ -193,7 +200,7 @@ while game != 'Over':
                 #### In standard black jack the dealer MUST hit until 17 and stop at 17 or higher,
                 #### the dealer cannot actually gamble or take decisions.
                 #### Also there are some rules (like soft 17) that were intentionally ignored 
-                if dealerTable < playerTable and playerTable < 21: 
+                if dealerTable < playerTable and playerTable < 21: #  and dBank > bid 
                     dealerTurn()
                 
                 elif dealerTable > 21:
