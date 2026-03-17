@@ -74,7 +74,8 @@ while true; do
 
  
     else
-        delay=$(($RANDOM % 12 + 5)) #### if the weather is not available, wait   
+        #### if not available, wait a random delay to avoid triggering anti-scraping / anti-botting
+        delay=$(($RANDOM % 12 + 5)) 
         sleep "$delay"s
         data=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true")
 
