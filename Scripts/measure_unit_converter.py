@@ -50,7 +50,6 @@ weight = ["\n⚖️  Weight"]
 volume = ["\n💧  Volume"]
 temp   = ["\n🌡️  Temperature"]
 
-arrayToPrint  = []
 
 
 #### Check to see if the measure arrays are the same length
@@ -64,25 +63,50 @@ if lengthCheck / 3 != len(deltas):
 
 ################################################################################################
 
-converterType = str(input('1. Imperial to metric\t 2. Metric to imperial: ')).strip()
+def getInputType() -> int:
+    while True:
+        converterType = 0
+        try:
+            
+            converterType = int(input('1. Imperial to metric\t 2. Metric to imperial: '))
+            
+            if converterType not in (1 , 2):
+                converterType = int(input('Not a valid choice\n1. Imperial to metric\t 2. Metric to imperial: '))
+            else:
+                break
+
+        except Exception as e:
+            converterType = 0
+            print(f' getInput ERROR: {e}')
         
-while True:
-    try:
-        if converterType not in ("1" , "2"):
-            converterType = str(input('Not valid choice\n1. Imperial to metric\t 2. Metric to imperial: ')).strip()
-        else:
-            break
-
-    except Exception as e:
-        print(f'Error: {e}')
+    return converterType
 
 
-while True:
-    try:
-        inputNumber = str(input("Number to convert: ")).strip().replace(',','.')     
+
+def getInputNumber( converterType ):
+    while True:
+        try:
+            inputNumber = str(input("Number to convert: ")).strip().replace(',','.')
+            
+            try:
+                TestInputNumber = float( inputNumber )
+                break
+
+            except Exception as e:
+                print(f'inputNumber conversion ERROR: {e}')
+
+        except Exception as e:
+            inputNumber = 0
+            print(f'getInputNumber ERROR: {e}')
     
+    return inputNumber
+
+
+def extraConversions( converterType, inputNumber ):
+    try:
+
         #### Imperial to metric multiplies
-        if converterType == "1" and '.' in ( str(inputNumber) ):
+        if converterType == 1 and '.' in ( str(inputNumber) ):
             feetN           = int(inputNumber[ : inputNumber.find('.')])
             meters_feet     = feetN  * 0.3048
             inchesN         = int(inputNumber[ inputNumber.find('.')+1 :])
@@ -90,80 +114,97 @@ while True:
             exConv          = f'{feetN}ft {inchesN}in  \t to  Mt-Cm   =\t{meters_feet + centim_inches:.2f}'
 
             addedExtraConversion = True
-            break
+
         else:
-            addedExtraConversion = False          
-            break    
+            exConv = ""
+            addedExtraConversion = False
 
     except Exception as e:
-        print(f'Error: {e}')
+        print(f'extraConversions ERROR: {e}')
 
-inputNumber = float(inputNumber)
+    return exConv, addedExtraConversion
+
 
 ################################################################################################
 
-#### Imperial to metric multiplies
-if converterType == "1":
+def main():
+    try:
 
-    for i in range(0, len(metric)):
+        arrayToPrint  = []
 
-        result = f'{inputNumber} {imperial[i]}\t to  {metric[i]}  =  {inputNumber * deltas[i]:.2f}'
+        converterType = getInputType()
+        inputNumber = getInputNumber( converterType )
+        exConv, addedExtraConversion = extraConversions( converterType, inputNumber )
 
-        if imperial[i] in ("Inches","Feet","Yards","Miles"):
-            length.append(result)
+
+        inputNumber = float( inputNumber )
+
+        #### Imperial to metric multiplies
+        if converterType == 1:
+
+            for i in range(0, len(metric)):
+
+                result = f'{inputNumber} {imperial[i]}\t to  {metric[i]}  =  {inputNumber * deltas[i]:.2f}'
+
+                if imperial[i] in ("Inches","Feet","Yards","Miles"):
+                    length.append(result)
+                    
+                elif imperial[i] in ("Pounds","Ounce"):
+                    weight.append(result)
+
+                elif imperial[i] in ("US Gallon"):
+                    volume.append(result)
+
+                elif imperial[i] in ("Fahrenheit"):
+                    formulaResult = f"{float( (inputNumber -32 ) / (9/5)):.2f}"     #### °F = °C * 1.8 + 32
+                    result = f'{inputNumber} {imperial[i]}\t to  {metric[i]}  =  {formulaResult}'
+                    temp.append(result)
+                
+                else:
+                    print(f'Measure error')
             
-        elif imperial[i] in ("Pounds","Ounce"):
-            weight.append(result)
+            #### Combined conversions for better usability
+            if addedExtraConversion:
+                length.insert(3 , exConv)
 
-        elif imperial[i] in ("US Gallon"):
-            volume.append(result)
 
-        elif imperial[i] in ("Fahrenheit"):
-            formulaResult = f"{float( (inputNumber -32 ) / (9/5)):.2f}"     #### °F = °C * 1.8 + 32
-            result = f'{inputNumber} {imperial[i]}\t to  {metric[i]}  =  {formulaResult}'
-            temp.append(result)
+
+        #### Metric to imperial divides
+        elif converterType == 2:
+            for i in range(0, len(imperial)):
+
+                result = f'{inputNumber} {metric[i]}\t to  {imperial[i]}  =  {inputNumber / deltas[i]:.2f}'
+
+                if metric[i] in ("Centimeters","Meters","Meters","Kilometers"):
+                    length.append(result)
+
+                elif metric[i] in ("Kilograms","Kilograms"):
+                    weight.append(result)
+
+                elif metric[i] in ("Liter"):
+                    volume.append(result)
+
+                elif metric[i] in ("Celsius"):
+                    formulaResult = f" {float(  (inputNumber * (9/5) +32 ) ):.2f}"  #### °C = (°F - 32) ÷ (9/5)    
+                    result = f'{inputNumber} {metric[i]}\t to  {imperial[i]}  =  {formulaResult}'
+                    temp.append(result)
+                
+                else:
+                    print(f'Measure error')
+
+
+        arrayToPrint = length + weight + volume + temp   
+
+        for j in range(0, len(arrayToPrint)):
         
-        else:
-            print(f'Measure error')
+            print(f'{arrayToPrint[j]}')
 
 
 
-
-#### Metric to imperial divides
-elif converterType == "2":
-    for i in range(0, len(imperial)):
-
-        result = f'{inputNumber} {metric[i]}\t to  {imperial[i]}  =  {inputNumber / deltas[i]:.2f}'
-
-        if metric[i] in ("Centimeters","Meters","Meters","Kilometers"):
-            length.append(result)
-
-        elif metric[i] in ("Kilograms","Kilograms"):
-            weight.append(result)
-
-        elif metric[i] in ("Liter"):
-            volume.append(result)
-
-        elif metric[i] in ("Celsius"):
-            formulaResult = f" {float(  (inputNumber * (9/5) +32 ) ):.2f}"  #### °C = (°F - 32) ÷ (9/5)    
-            result = f'{inputNumber} {metric[i]}\t to  {imperial[i]}  =  {formulaResult}'
-            temp.append(result)
-        
-        else:
-            print(f'Measure error')
-
-else:
-    print(f'Type error')
-    exit() 
+    except Exception as e:
+        print(f'main ERROR: {e}')
 
 
 
-
-if addedExtraConversion:
-    length.insert(3 , exConv)
-
-arrayToPrint = length + weight + volume + temp   
-
-for j in range(0, len(arrayToPrint)):
-   
-    print(f'{arrayToPrint[j]}')
+if __name__ == "__main__":
+    main()
