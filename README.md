@@ -43,7 +43,3 @@ Defined in `profile.sh`, available after `setup`:
 | `percentage` | `perc_calc.py` |
 | `math` / `poker-jack` | the games in `Scripts/Games/` |
 | `profile` / `welcome` | edit `~/.profile` / `/etc/motd` |
-
-## ⚠️ Local changes
-
-`repo_update.sh` runs `git reset --hard`: anything edited on the phone is lost on the next update. Edit in Nextcloud instead.
